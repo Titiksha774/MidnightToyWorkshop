@@ -1,0 +1,46 @@
+{
+ "width": 1600,
+ "height": 900,
+ "points": {
+  "left_thumbstick": [
+   0.3465,
+   0.6711
+  ],
+  "left_trigger": [
+   0.3075,
+   0.4497
+  ],
+  "left_grip": [
+   0.4322,
+   0.4911
+  ],
+  "left_menu": [
+   0.3924,
+   0.6601
+  ],
+  "left_buttons": [
+   0.302,
+   0.6349
+  ],
+  "right_thumbstick": [
+   0.6535,
+   0.6711
+  ],
+  "right_trigger": [
+   0.6925,
+   0.4497
+  ],
+  "right_grip": [
+   0.5678,
+   0.4911
+  ],
+  "right_menu": [
+   0.6076,
+   0.6601
+  ],
+  "right_buttons": [
+   0.698,
+   0.6349
+  ]
+ }
+}

@@ -1,0 +1,781 @@
+{
+ "materials": [
+  {
+   "name": "Wood_Oak",
+   "albedo": "Assets/Art/Textures/wood_oak_albedo.png",
+   "normal": "Assets/Art/Textures/wood_oak_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.45,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.3
+  },
+  {
+   "name": "Wood_Walnut",
+   "albedo": "Assets/Art/Textures/wood_walnut_albedo.png",
+   "normal": "Assets/Art/Textures/wood_walnut_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.3
+  },
+  {
+   "name": "Wood_Floor",
+   "albedo": "Assets/Art/Textures/wood_floor_albedo.png",
+   "normal": "Assets/Art/Textures/wood_floor_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.4,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Brick",
+   "albedo": "Assets/Art/Textures/brick_albedo.png",
+   "normal": "Assets/Art/Textures/brick_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.15,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 1.0
+  },
+  {
+   "name": "Plaster",
+   "albedo": "Assets/Art/Textures/plaster_albedo.png",
+   "normal": "Assets/Art/Textures/plaster_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.08,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Pegboard",
+   "albedo": "Assets/Art/Textures/pegboard_albedo.png",
+   "normal": "Assets/Art/Textures/pegboard_normal.png",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.3,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Metal_Iron",
+   "albedo": "Assets/Art/Textures/metal_albedo.png",
+   "normal": "Assets/Art/Textures/metal_normal.png",
+   "tint": [
+    0.3,
+    0.3,
+    0.32
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.55,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Metal_Brass",
+   "albedo": "Assets/Art/Textures/metal_albedo.png",
+   "normal": "Assets/Art/Textures/metal_normal.png",
+   "tint": [
+    0.88,
+    0.66,
+    0.3
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.72,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Fabric_Navy",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.16,
+    0.2,
+    0.38
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Fabric_Brown",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.38,
+    0.26,
+    0.17
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Fabric_Red",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.55,
+    0.11,
+    0.11
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.1,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Fabric_Rug",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.52,
+    0.22,
+    0.13
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Fabric_Cream",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.92,
+    0.88,
+    0.78
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Leather",
+   "albedo": "Assets/Art/Textures/leather_albedo.png",
+   "normal": "Assets/Art/Textures/leather_normal.png",
+   "tint": [
+    0.45,
+    0.27,
+    0.15
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.4,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Skin",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.93,
+    0.71,
+    0.57
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.45,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Hair_White",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.93,
+    0.92,
+    0.89
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.15,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Wax",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.96,
+    0.92,
+    0.82
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Red",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.78,
+    0.1,
+    0.08
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Blue",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.1,
+    0.26,
+    0.66
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Yellow",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.96,
+    0.72,
+    0.1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Green",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.12,
+    0.44,
+    0.26
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Cream",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.95,
+    0.9,
+    0.78
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.7,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Black",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.04,
+    0.04,
+    0.045
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_White",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.93,
+    0.93,
+    0.91
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Orange",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.96,
+    0.46,
+    0.1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Enamel_Pink",
+   "albedo": "Assets/Art/Textures/enamel_albedo.png",
+   "normal": "Assets/Art/Textures/enamel_normal.png",
+   "tint": [
+    0.95,
+    0.58,
+    0.68
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Felt_Green",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.27,
+    0.48,
+    0.22
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Felt_Grey",
+   "albedo": "Assets/Art/Textures/fabric_albedo.png",
+   "normal": "Assets/Art/Textures/fabric_normal.png",
+   "tint": [
+    0.58,
+    0.57,
+    0.58
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Gravel",
+   "albedo": "Assets/Art/Textures/plaster_albedo.png",
+   "normal": "Assets/Art/Textures/plaster_normal.png",
+   "tint": [
+    0.52,
+    0.5,
+    0.47
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 1.0
+  },
+  {
+   "name": "Slate",
+   "albedo": "Assets/Art/Textures/plaster_albedo.png",
+   "normal": "Assets/Art/Textures/plaster_normal.png",
+   "tint": [
+    0.13,
+    0.17,
+    0.15
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.25
+  },
+  {
+   "name": "Plastic_Dark",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.09,
+    0.09,
+    0.1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.55,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Plastic_Light",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.86,
+    0.86,
+    0.84
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.6,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Glass",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    0.85,
+    0.92,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.95,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 0.18,
+   "bump": 0.5
+  },
+  {
+   "name": "Emissive_Warm",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    0.86,
+    0.6
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    8.0,
+    6.24,
+    3.6
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Flame",
+   "albedo": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    0.55,
+    0.15
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    12.0,
+    5.76,
+    1.2000000000000002
+   ],
+   "emissionFromAlbedo": false,
+   "emissionStrength": 0.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "Embers",
+   "albedo": "Assets/Art/Textures/embers_albedo.png",
+   "normal": "",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emissionFromAlbedo": true,
+   "emissionStrength": 3.0,
+   "alpha": 1.0,
+   "bump": 0.5
+  },
+  {
+   "name": "NightSky",
+   "albedo": "Assets/Art/Textures/night_sky_albedo.png",
+   "normal": "",
+   "tint": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "emission": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emissionFromAlbedo": true,
+   "emissionStrength": 1.4,
+   "alpha": 1.0,
+   "bump": 0.5
+  }
+ ]
+}
