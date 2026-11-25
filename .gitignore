@@ -76,3 +76,11 @@ __pycache__/
 
 # Over GitHub's 100 MB file limit (same content as the Blender_Submission folder)
 Blender_Submission.zip
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
